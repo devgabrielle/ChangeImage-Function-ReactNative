@@ -44,7 +44,6 @@ export default function App() {
         <View style={{ flexDirection: "row", justifyContent: 'center' }}>
           <TouchableOpacity onPress={() => { (setImageChoice(2)) }} style={{ borderColor: imageChoice === image02 ? "green" : "#d3d3d3" }}>
             <Image
-              style={styles.cutHairImage}
               source={require('./assets/icon1.png')} />
             <Text style={styles.txt}>Cortar meu Cabelo</Text>
           </TouchableOpacity>
