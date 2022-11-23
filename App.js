@@ -61,6 +61,6 @@ export default function App() {
       </TouchableOpacity>
 
     </View >
-  )
+  );
 };
 
